@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="urn:mpeg:dash:schema:mpd:2011"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
+     profiles="urn:mpeg:dash:profile:isoff-live:2011"
+     type="dynamic"
+     minimumUpdatePeriod="PT5.452S" 
+     publishTime="2020-02-10T13:14:18Z" 
+     availabilityStartTime="2020-02-09T22:41:01Z" 
+     timeShiftBufferDepth="PT50.0S"
+     suggestedPresentationDelay="PT20.0S" 
+     minBufferTime="PT6.0S">
+<ProgramInformation>
+    <Title>foxsports.smil</Title>
+</ProgramInformation>
+<Period id="0" start="PT0.0S">
+    <AdaptationSet id="0" group="1" mimeType="video/mp4" maxWidth="854" maxHeight="480" par="16:9" maxFrameRate="22" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+        <SegmentTemplate timescale="90000" media="segment_u6hpz5cuf_ctvideo_cfm4s_rid$RepresentationID$_cs$Time$_mpd.m4s" initialization="segment_u6hpz5cuf_ctvideo_cfm4s_rid$RepresentationID$_cinit_mpd.m4s">
+            <SegmentTimeline>
+                <S t="4710696120" d="900000"/>
+                <S d="900000"/>
+                <S d="900000"/>
+                <S d="900000"/>
+                <S d="900000"/>
+            </SegmentTimeline>
+        </SegmentTemplate>
+        <Representation id="p0va0br1286400" codecs="avc1.4d401f" width="854" height="480" frameRate="21" sar="1:1" bandwidth="1286400" />
+        <Representation id="p0va0br956814" codecs="avc1.4d401e" width="720" height="404" frameRate="21" sar="1:1" bandwidth="956814" />
+        <Representation id="p0va0br519918" codecs="avc1.4d401e" width="640" height="360" frameRate="21" sar="1:1" bandwidth="519918" />
+        <Representation id="p0va0br383674" codecs="avc1.4d4015" width="320" height="180" frameRate="22" sar="1:1" bandwidth="383674" />
+    </AdaptationSet>
+    <AdaptationSet id="1" group="2" mimeType="audio/mp4" lang="eng" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <SegmentTemplate timescale="48000" media="segment_u6hpz5cuf_ctaudio_cfm4s_rid$RepresentationID$_cs$Time$_mpd.m4s" initialization="segment_u6hpz5cuf_ctaudio_cfm4s_rid$RepresentationID$_cinit_mpd.m4s">
+            <SegmentTimeline>
+                <S t="2512372128" d="479232"/>
+                <S d="480288"/>
+                <S d="480240"/>
+                <S d="480240"/>
+                <S d="479232"/>
+            </SegmentTimeline>
+        </SegmentTemplate>
+        <Representation id="p0aa0br144767" codecs="mp4a.40.2" audioSamplingRate="48000" bandwidth="144767">
+        </Representation>
+    </AdaptationSet>
+</Period>
+<UTCTiming schemeIdUri="urn:mpeg:dash:utc:direct:2014" value="2020-02-10T13:14:18Z"/>
+</MPD>
