@@ -1,0 +1,9 @@
+#EXTM3U
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1233000,RESOLUTION=640x360,CODECS="avc1.77.30, mp4a.40.2"
+https://streaming.cnnbrasil.com.br/cnndigital_mainOutput5.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1687000,RESOLUTION=768x432,CODECS="avc1.77.30, mp4a.40.2"
+https://streaming.cnnbrasil.com.br/cnndigital_mainOutput4.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2628000,RESOLUTION=960x540,CODECS="avc1.640029, mp4a.40.2"
+https://streaming.cnnbrasil.com.br/cnndigital_mainOutput3.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2078000,RESOLUTION=1280x720,CODECS="avc1.77.30, mp4a.40.2"
+https://streaming.cnnbrasil.com.br/cnndigital_mainOutput2.m3u8
